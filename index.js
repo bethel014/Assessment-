@@ -7,3 +7,5 @@ function addNumber(num1, num2, num3, callback) {
 function handleResult(sum) {
   console.log("The total is :", sum);
 }
+// call the addNumber fuction with numbers and fallback
+addNumber(6, 7, 9, handleResult);
